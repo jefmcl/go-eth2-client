@@ -16,9 +16,9 @@ package bellatrix
 import (
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/jefmcl/go-eth2-client/spec/altair"
+	"github.com/jefmcl/go-eth2-client/spec/bellatrix"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/goccy/go-yaml"
 )
 

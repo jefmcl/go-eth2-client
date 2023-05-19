@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/deneb"
+	"github.com/jefmcl/go-eth2-client/spec/deneb"
 	"github.com/goccy/go-yaml"
 	"github.com/golang/snappy"
 	require "github.com/stretchr/testify/require"

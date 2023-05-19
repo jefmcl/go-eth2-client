@@ -16,7 +16,7 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
+	consensusclient "github.com/jefmcl/go-eth2-client"
 )
 
 // Spec provides the spec information of the chain.

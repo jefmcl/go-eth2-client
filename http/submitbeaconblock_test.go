@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
-	client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/http"
-	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	client "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/http"
+	"github.com/jefmcl/go-eth2-client/spec"
+	"github.com/jefmcl/go-eth2-client/spec/altair"
+	"github.com/jefmcl/go-eth2-client/spec/bellatrix"
+	"github.com/jefmcl/go-eth2-client/spec/capella"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/stretchr/testify/require"
 )
 

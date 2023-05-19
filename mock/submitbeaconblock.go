@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	spec "github.com/attestantio/go-eth2-client/spec"
+	spec "github.com/jefmcl/go-eth2-client/spec"
 )
 
 // SubmitBeaconBlock submits a beacon block.

@@ -16,8 +16,8 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	apiv1 "github.com/jefmcl/go-eth2-client/api/v1"
 )
 
 // SubmitProposalPreparations provides the beacon node with information required if a proposal for the given validators

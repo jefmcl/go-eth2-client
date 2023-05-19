@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	client "github.com/attestantio/go-eth2-client"
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	client "github.com/jefmcl/go-eth2-client"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 	"github.com/r3labs/sse/v2"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"

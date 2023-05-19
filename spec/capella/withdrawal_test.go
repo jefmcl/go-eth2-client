@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/capella"
+	"github.com/jefmcl/go-eth2-client/spec/capella"
 	"github.com/goccy/go-yaml"
 	"github.com/golang/snappy"
 	"github.com/stretchr/testify/require"

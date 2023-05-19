@@ -16,8 +16,8 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/jefmcl/go-eth2-client/spec"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 )
 
 // SignedBeaconBlock fetches a signed beacon block given a block ID.

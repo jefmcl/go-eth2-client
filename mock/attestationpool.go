@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	spec "github.com/attestantio/go-eth2-client/spec/phase0"
+	spec "github.com/jefmcl/go-eth2-client/spec/phase0"
 )
 
 // AttestationPool fetches the attestation pool for the given slot.

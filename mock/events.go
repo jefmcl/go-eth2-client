@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	client "github.com/attestantio/go-eth2-client"
+	client "github.com/jefmcl/go-eth2-client"
 )
 
 // Events feeds requested events with the given topics to the supplied handler.

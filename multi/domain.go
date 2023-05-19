@@ -17,8 +17,8 @@ import (
 	"bytes"
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 )
 

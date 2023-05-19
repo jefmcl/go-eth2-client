@@ -16,8 +16,8 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 )
 
 // NodeSyncing provides the syncing information for the node.

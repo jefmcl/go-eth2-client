@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/jefmcl/go-eth2-client/spec/bellatrix"
+	"github.com/jefmcl/go-eth2-client/spec/capella"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/holiman/uint256"
 	"github.com/pkg/errors"
 )

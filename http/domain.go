@@ -17,7 +17,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 )
 

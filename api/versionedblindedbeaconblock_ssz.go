@@ -4,9 +4,9 @@
 package api
 
 import (
-	apiv1bellatrix "github.com/attestantio/go-eth2-client/api/v1/bellatrix"
-	apiv1capella "github.com/attestantio/go-eth2-client/api/v1/capella"
-	"github.com/attestantio/go-eth2-client/spec"
+	apiv1bellatrix "github.com/jefmcl/go-eth2-client/api/v1/bellatrix"
+	apiv1capella "github.com/jefmcl/go-eth2-client/api/v1/capella"
+	"github.com/jefmcl/go-eth2-client/spec"
 	ssz "github.com/ferranbt/fastssz"
 )
 

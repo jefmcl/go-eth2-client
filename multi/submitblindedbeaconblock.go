@@ -16,8 +16,8 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/api"
 )
 
 // SubmitBlindedBeaconBlock submits a blinded beacon block.

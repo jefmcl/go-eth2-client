@@ -16,8 +16,8 @@ package multi
 import (
 	"time"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/metrics"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/metrics"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 )

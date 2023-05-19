@@ -19,11 +19,11 @@ import (
 	"os"
 	"testing"
 
-	client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
-	v1 "github.com/attestantio/go-eth2-client/api/v1"
-	"github.com/attestantio/go-eth2-client/http"
-	"github.com/attestantio/go-eth2-client/spec"
+	client "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/api"
+	v1 "github.com/jefmcl/go-eth2-client/api/v1"
+	"github.com/jefmcl/go-eth2-client/http"
+	"github.com/jefmcl/go-eth2-client/spec"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

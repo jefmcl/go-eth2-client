@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
+	"github.com/jefmcl/go-eth2-client/spec/altair"
 )
 
 // SubmitSyncCommitteeContributions submits sync committee contributions.

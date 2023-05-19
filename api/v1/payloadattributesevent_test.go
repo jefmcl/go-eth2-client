@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 	require "github.com/stretchr/testify/require"
 	"gotest.tools/assert"
 )

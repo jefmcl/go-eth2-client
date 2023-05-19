@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 )
 
 // BeaconCommittees fetches all beacon committees for the epoch at the given state.

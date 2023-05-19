@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
+	consensusclient "github.com/jefmcl/go-eth2-client"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 )

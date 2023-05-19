@@ -17,7 +17,7 @@ import (
 	"context"
 	"encoding/json"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 	"github.com/pkg/errors"
 )
 

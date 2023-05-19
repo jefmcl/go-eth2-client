@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	eth2client "github.com/attestantio/go-eth2-client"
-	api "github.com/attestantio/go-eth2-client/api/v1"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	eth2client "github.com/jefmcl/go-eth2-client"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 	zerologger "github.com/rs/zerolog/log"
@@ -78,9 +78,9 @@ func New(ctx context.Context, params ...Parameter) (eth2client.Service, error) {
 	}
 
 	tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}}
-	
+
     	client := &http.Client{Transport: tr}
-	
+
 	client := &http.Client{
 		Timeout: parameters.timeout,
 		Transport: &http.Transport{

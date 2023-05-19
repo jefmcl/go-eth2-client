@@ -19,8 +19,8 @@ import (
 	"math/rand"
 	"time"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 	"github.com/rs/zerolog"
 )
 

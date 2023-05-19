@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 )
 
 // DepositContract provides details of the Ethereum 1 deposit contract for the chain.

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/http"
+	client "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/http"
 	"github.com/stretchr/testify/require"
 )
 

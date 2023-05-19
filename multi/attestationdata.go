@@ -16,8 +16,8 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/spec/phase0"
 )
 
 // AttestationData fetches the attestation data for the given slot and committee index.

@@ -17,9 +17,9 @@ import (
 	"context"
 	"testing"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/mock"
-	"github.com/attestantio/go-eth2-client/testclients"
+	consensusclient "github.com/jefmcl/go-eth2-client"
+	"github.com/jefmcl/go-eth2-client/mock"
+	"github.com/jefmcl/go-eth2-client/testclients"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 )

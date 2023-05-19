@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
+	api "github.com/jefmcl/go-eth2-client/api/v1"
 )
 
 // NodeSyncing provides the state of the node's synchronization with the chain.
