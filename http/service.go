@@ -77,7 +77,7 @@ func New(ctx context.Context, params ...Parameter) (eth2client.Service, error) {
 		log = log.Level(parameters.logLevel)
 	}
 
-	 tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}}
+	// tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}}
 
     	// client := &http.Client{Transport: tr}
 
