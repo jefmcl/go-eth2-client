@@ -1,4 +1,4 @@
-module github.com/attestantio/go-eth2-client
+module github.com/jefmcl/go-eth2-client
 
 go 1.20
 
