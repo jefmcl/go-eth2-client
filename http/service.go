@@ -19,6 +19,7 @@ import (
 	"net"
 	"net/http"
 	"net/url"
+	"crypto/tls"
 	"strings"
 	"sync"
 	"time"
@@ -76,6 +77,10 @@ func New(ctx context.Context, params ...Parameter) (eth2client.Service, error) {
 		log = log.Level(parameters.logLevel)
 	}
 
+	tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}}
+	
+    	client := &http.Client{Transport: tr}
+	
 	client := &http.Client{
 		Timeout: parameters.timeout,
 		Transport: &http.Transport{
@@ -84,6 +89,7 @@ func New(ctx context.Context, params ...Parameter) (eth2client.Service, error) {
 				KeepAlive: 30 * time.Second,
 				DualStack: true,
 			}).DialContext,
+			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 			MaxIdleConns:        64,
 			MaxConnsPerHost:     64,
 			MaxIdleConnsPerHost: 64,
